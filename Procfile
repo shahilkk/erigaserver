@@ -1,0 +1,1 @@
+web: gunicorn eriga.wsgi --log-file -

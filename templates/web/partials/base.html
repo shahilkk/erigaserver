@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Eriga</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'web/imgs/theme/favicon.svg' %}">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="{% static 'web/css/maind6c3.css'%}">
+</head>
+
+<body>
+    <!-- Quick view -->
+    
+    {% include 'web/partials/header.html' %}
+
+
+      {% block content %}
+      {% endblock %}
+       
+    {% include 'web/partials/footer.html' %}
+    <!-- Preloader Start -->
+    <!-- <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="text-center">
+                    <h5 class="mb-5">Now Loading</h5>
+                    <div class="loader">
+                        <div class="bar bar1"></div>
+                        <div class="bar bar2"></div>
+                        <div class="bar bar3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Vendor JS-->
+    <script src="{% static 'web/js/vendor/modernizr-3.6.0.min.js' %}"></script>
+    <script src="{% static 'web/js/vendor/jquery-3.6.0.min.js' %}"></script>
+    <script src="{% static 'web/js/vendor/jquery-migrate-3.3.0.min.js' %}"></script>
+    <script src="{% static 'web/js/vendor/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'web/js/plugins/slick.js' %}"></script>
+    <script src="{% static 'web/js/plugins/jquery.syotimer.min.js' %}"></script>
+    <script src="{% static 'web/js/plugins/wow.js' %}"></script>
+    <script src="{% static 'web/js/plugins/jquery-ui.js' %}"></script>
+    <script src="{% static 'web/js/plugins/perfect-scrollbar.js' %}"></script>
+    <script src="{% static 'web/js/plugins/magnific-popup.js' %}"></script>
+    <script src="{% static 'web/js/plugins/select2.min.js' %}"></script>
+    <script src="{% static 'web/js/plugins/waypoints.js' %}"></script>
+    <script src="{% static 'web/js/plugins/counterup.js' %}"></script>
+    <script src="{% static 'web/js/plugins/jquery.countdown.min.js' %}"></script>
+    <script src="{% static 'web/js/plugins/images-loaded.js' %}"></script>
+    <script src="{% static 'web/js/plugins/isotope.js' %}"></script>
+    <script src="{% static 'web/js/plugins/scrollup.js' %}"></script>
+    <script src="{% static 'web/js/plugins/jquery.vticker-min.js' %}"></script>
+    <script src="{% static 'web/js/plugins/jquery.theia.sticky.js' %}"></script>
+    <script src="{% static 'web/js/plugins/jquery.elevatezoom.js' %}"></script>
+    <!-- Template  JS -->
+    <script src="{% static 'web/js/maind6c3.js' %}"></script>
+    <script src="{% static 'web/js/shopd6c3.js' %}"></script>
+</body>
+
+</html>
